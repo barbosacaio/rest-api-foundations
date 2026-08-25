@@ -309,7 +309,7 @@ The structure may evolve as implementation reveals real needs. Abstractions will
 
 ### Requirements
 
-- Node.js 20 or newer
+- Node.js 24 or newer
 - npm
 - Docker and Docker Compose
 
@@ -377,7 +377,7 @@ Testing will focus on observable behavior and important business rules rather th
 
 ### Phase 1 — Foundation
 
-- [ ] Initialize Node.js and strict TypeScript configuration
+- [x] Initialize Node.js and strict TypeScript configuration
 - [ ] Configure Express and environment validation
 - [ ] Add linting, formatting, and development scripts
 - [ ] Add the health-check endpoint

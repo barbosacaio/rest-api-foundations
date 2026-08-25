@@ -379,7 +379,7 @@ Testing will focus on observable behavior and important business rules rather th
 
 - [x] Initialize Node.js and strict TypeScript configuration
 - [x] Configure Express and environment validation
-- [ ] Add linting, formatting, and development scripts
+- [x] Add linting, formatting, and development scripts
 - [ ] Add the health-check endpoint
 - [ ] Configure PostgreSQL, Prisma, and Docker Compose
 

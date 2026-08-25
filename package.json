@@ -18,16 +18,27 @@
     "dev": "node --watch --env-file-if-exists=.env --import=tsx src/server.ts",
     "build": "tsc",
     "start": "node --env-file-if-exists=.env dist/server.js",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint . --max-warnings=0",
+    "lint:fix": "eslint . --fix",
+    "format": "prettier . --write",
+    "format:check": "prettier . --check",
+    "check": "npm run typecheck && npm run lint && npm run format:check && npm run build"
   },
   "engines": {
     "node": ">=24"
   },
   "devDependencies": {
+    "@eslint/js": "^10.0.1",
     "@types/express": "^5.0.6",
     "@types/node": "^24.13.3",
+    "eslint": "^10.9.1",
+    "eslint-config-prettier": "^10.1.8",
+    "globals": "^17.11.0",
+    "prettier": "3.9.6",
     "tsx": "^4.23.12",
-    "typescript": "^7.0.2"
+    "typescript": "~6.0.0",
+    "typescript-eslint": "^8.68.0"
   },
   "allowScripts": {
     "esbuild@0.28.2": true

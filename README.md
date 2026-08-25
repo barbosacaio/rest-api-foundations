@@ -378,7 +378,7 @@ Testing will focus on observable behavior and important business rules rather th
 ### Phase 1 — Foundation
 
 - [x] Initialize Node.js and strict TypeScript configuration
-- [ ] Configure Express and environment validation
+- [x] Configure Express and environment validation
 - [ ] Add linting, formatting, and development scripts
 - [ ] Add the health-check endpoint
 - [ ] Configure PostgreSQL, Prisma, and Docker Compose
